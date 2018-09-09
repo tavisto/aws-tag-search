@@ -4,6 +4,7 @@
 *.dll
 *.so
 *.dylib
+aws-tag-search
 
 # Test binary, build with `go test -c`
 *.test
