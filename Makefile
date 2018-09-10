@@ -1,4 +1,4 @@
-.PHONY: format build get run
+.PHONY: format build get test run 
 
 all: get build run
 
@@ -7,6 +7,9 @@ format:
 
 get:
 	go get
+
+test:
+	go test
 
 build:
 	go build
